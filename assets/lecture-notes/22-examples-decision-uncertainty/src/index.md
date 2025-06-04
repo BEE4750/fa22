@@ -377,6 +377,23 @@ class: left
 - Once again, just scratched the surface!
 
 ---
+# Overarching Themes
+<hr>
+
+- Neglecting systems dynamics and interactions can be tempting, but is fraught
+- These nonlinearities and feedbacks make stress-testing analyses under varying assumptions essential.
+- But there do exist a variety of mathematical and computational frameworks and approaches which let us build on engineering fundamentals to analyze systems.
+- Always try to choose the right tool for the job, and be aware of what limitations accompany models, methods, and assumptions.
+
+---
+name: questions
+
+template: poll-answer
+
+***Any remaining questions?***
+
+
+---
 class: center, middle
 
 <hr>
