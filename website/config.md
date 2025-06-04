@@ -3,7 +3,7 @@
 author = "Vivek Srikrishnan"
 mintoclevel = 2
 maxtoclevel = 3
-prepath = "fa22"
+prepath = "fall2022"
 hasmath = false
 generate_rss = false
 
