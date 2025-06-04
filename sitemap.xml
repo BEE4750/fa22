@@ -2,13 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>resources/index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>tutorials/julia-basics/index.html</loc>
+    <loc>agenda/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -20,19 +14,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>tutorials/julia-plots/index.html</loc>
+    <loc>policies/communications/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>agenda/index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>policies/index.html</loc>
+    <loc>tutorials/julia-basics/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -44,37 +32,13 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>policies/communications/index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
     <loc>examples/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>software/index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>assignments/workflow/index.html</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>tutorials/using-JuMP/index.html</loc>
+    <loc>policies/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -86,49 +50,37 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw1/hw1/</loc>
+    <loc>tutorials/julia-plots/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw2/hw2/</loc>
+    <loc>index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw1/vivek-solution/</loc>
+    <loc>software/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw2/rubric/</loc>
+    <loc>tutorials/using-JuMP/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw2/vivek-solution/</loc>
+    <loc>resources/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw4/hw4/</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>assignments/term/term/</loc>
-    <lastmod>2025-06-04</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>assignments/hw3/hw3/</loc>
+    <loc>assignments/workflow/index.html</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -140,7 +92,19 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/regulation/regulation/</loc>
+    <loc>assignments/hw1/hw1/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw4/hw4/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw4/rubric/</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -164,7 +128,43 @@
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>assignments/hw4/rubric/</loc>
+    <loc>assignments/hw3/hw3/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/term/term/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/regulation/regulation/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw1/vivek-solution/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw2/rubric/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw2/hw2/</loc>
+    <lastmod>2025-06-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>assignments/hw2/vivek-solution/</loc>
     <lastmod>2025-06-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
