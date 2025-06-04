@@ -3,7 +3,7 @@
 author = "Vivek Srikrishnan"
 mintoclevel = 2
 maxtoclevel = 3
-prepath = "environmental-systems-analysis"
+prepath = "fa22"
 hasmath = false
 generate_rss = false
 
