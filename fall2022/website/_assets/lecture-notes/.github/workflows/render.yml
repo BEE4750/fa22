@@ -1,0 +1,48 @@
+name: Render
+on:
+  push:
+    branches:
+      - main
+      - Fall22
+jobs:
+  render:
+    runs-on: macos-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: true
+    - name: Install Julia
+      uses: julia-actions/setup-julia@v1
+      with:
+        version: 1.8
+    - name: Pull
+      run: git pull
+    - run: julia src/render.jl
+    - name: Commit
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "render notes"
+    
+  deploy:
+    needs: render
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Parent Repository
+        uses: actions/checkout@v3
+        with: 
+          repository: 'vsrikrish/environmental-systems-analysis'
+          token: ${{ secrets.UPDATE_SUBMODULE }}
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+      - name: Pull & Update Submodules
+        run: |
+          git submodule update --init --recursive
+          git submodule update --recursive --remote
+      - name: Commit 
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
+          git add --all
+          git commit -m "Update submodules" || echo "No changes to commit"
+          git push
